@@ -1,0 +1,19 @@
+{
+  "name": "lesson-nodejs",
+  "version": "1.0.0",
+  "main": "dist/src/index",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npx nodemon ./src/index.ts",
+    "build": "npx tsc",
+    "clean": "rm -r dist/*"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
